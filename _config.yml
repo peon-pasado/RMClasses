@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rating Miserable Materials
-subtitle: Blogs on Deep Learning, System Design, Algorithms,<br>Development and much more ...
-description: Reading, Learning, Thinking and Writing
+subtitle: Material from Competitive Programming in UNI-FC
+description: do panic
 baseurl: "/RMClasses"
-timezone: Asia/Kolkata
+timezone: Peru 
 sidebar_repository_limit: 3
 publication_date: 2022
 pagination:
@@ -32,11 +32,9 @@ pagination:
 remote_theme: Akash-Sharma-1/blog
 
 # Author settings
-author: Akash Sharma
-organization: IIIT Delhi
-location: New Delhi, India
-social:
-  github: Akash-Sharma-1
+author: Rating Miserable
+organization: UNI university
+location: Lima, Peru
 
 
 # Build settings (https://help.github.com/en/articles/configuring-jekyll)
@@ -54,8 +52,6 @@ navigation:
     link: /leetcode/
   - name: About Me
     link: /about/
-  - name: Portfolio
-    link: https://akash-sharma-1.github.io/
 defaults:
   - scope:
       path: pages

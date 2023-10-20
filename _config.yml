@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.subtitle }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Akash Sharma's Blog
+title: Rating Miserable Materials
 subtitle: Blogs on Deep Learning, System Design, Algorithms,<br>Development and much more ...
 description: Reading, Learning, Thinking and Writing
-baseurl: "/blog"
+baseurl: "/RMClasses"
 timezone: Asia/Kolkata
 sidebar_repository_limit: 3
 publication_date: 2022
@@ -38,12 +38,6 @@ location: New Delhi, India
 social:
   github: Akash-Sharma-1
 
-# Comments settings (https://utteranc.es/)
-# You must use your own repository, otherwise it won't work.
-comments_repository: Akash-Sharma-1/Utteranc-Comments-Repo-Blog
-
-# Google Analytics settings (https://analytics.google.com/)
-ga_measurement_id: G-W1GFNLSVY2
 
 # Build settings (https://help.github.com/en/articles/configuring-jekyll)
 # If you use this theme as a Github Pages's remote theme, you don't need to edit the

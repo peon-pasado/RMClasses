@@ -1,4 +1,9 @@
-## Busqueda Completa
+---
+layout: post
+title:  "Busqueda Completa"
+date:   2023-10-19 21:53:09 -0500
+categories: brute-force
+--- 
 
 ### Introducción al paradigma
 

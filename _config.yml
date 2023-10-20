@@ -35,7 +35,8 @@ remote_theme: Akash-Sharma-1/blog
 author: Rating Miserable
 organization: UNI university
 location: Lima, Peru
-
+social:
+  github: peon-pasado
 
 # Build settings (https://help.github.com/en/articles/configuring-jekyll)
 # If you use this theme as a Github Pages's remote theme, you don't need to edit the

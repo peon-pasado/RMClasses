@@ -41,8 +41,8 @@ for x in range(n//a + 1):
 
 __Problema 2.1.2:__ Halle cuantos valores enteros no negativos $x$, cumplen que 
 
-$$x - d(x) \ge s$$
-$$x \le n$$
+$x - d(x) \ge s$
+$x \le n$
 
 Donde $n, s \le {10}^{18}$ y $d$ es la función suma de dígitos.
 

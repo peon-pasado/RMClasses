@@ -1,4 +1,9 @@
-## Busqueda Completa
+---
+title: Busqueda Completa I
+tags: [competitive-programming]
+date: 2023-09-21
+---
+
 
 ### Introducción al paradigma
 

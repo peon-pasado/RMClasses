@@ -31,13 +31,13 @@ Pero, podemos darnos cuenta que dado $x$ y $y$, $z$ puede ser únicamente determ
 
 __Código:__
 
-```Python
+{% highlight python %}
 for x in range(n//a + 1):
     for y in range((n - a*x)//b + 1):
         z = (n - a*x - b*y)//c
         if a*x + b*y + c*z == c:
             print(x, y, z)
-```
+{% endhighlight %}
 
 __Problema 2.1.2:__ Halle cuantos valores enteros no negativos $x$, cumplen que 
 
@@ -53,7 +53,7 @@ Complejidad: $O(\log (n) \log (n+s))$.
 
 __Código:__
 
-```Python
+{% highlight python %}
 def sum_of_digits(m):
     res = 0
     while m > 0:
@@ -67,7 +67,7 @@ for d in range(0, 9 * 18 + 1):
     if x > n: break
     if x - sum_of_digits(x) >= s:
         cnt += 1
-```
+{% endhighlight %}
 
 __Problema 2.1.3:__ Responda todas las soluciones enteras $a, b, c$ de la ecuación $\frac{1}{a} + \frac{1}{b} + \frac{1}{c} = \frac{1}{k}$, con $a \ge b \ge c$. Dado $k \le 50$.
 
@@ -93,14 +93,14 @@ Así, como en el problema 2.1.1, si fijamos estas dos variables podemos deducir 
 
 __Código:__
 
-```Python
+{% highlight python %}
 for c in range(k + 1, 3*k + 1):
     for b in range(c, 2*k*(k + 1)):
         p = k*b*c
         q = b*c - k*(b+c) 
         if q > 0 and p % q == 0:
             print(p//q, b, c)
-```
+{% endhighlight %}
 
 __Simula__
 
@@ -120,7 +120,7 @@ Así, si fijamos $L$ podemos obtener los elementos de $S$ que son menores a $L$ 
 
 __Código:__
 
-```Python
+{% highlight python %}
 L = int(1e10) #este valor se tiene que descubrir
 arr = []
 n1 = 1
@@ -138,7 +138,7 @@ while n1 <= L:
     n1 *= 2
 
 print(arr[n-1])
-```
+{% endhighlight %}
 
 #### Analiza por casos
 
@@ -171,7 +171,7 @@ Analicemos el problema por casos de acuerdo a la cantidad de elementos distintos
 
 __Solución:__
 
-```Python
+{% highlight python %}
 sorted_arr = sorted(arr)
 sorted_arr_2 = list(reversed(sorted_arr))
 idx = [0]
@@ -192,4 +192,4 @@ for i in range(len(idx)):
         arr[x], arr[y] = arr[y], arr[x]
 
 print(-1)
-```
+{% endhighlight %}

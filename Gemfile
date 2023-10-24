@@ -1,14 +1,11 @@
-# frozen_string_literal: true
+source "http://rubygems.org"
 
-source "https://rubygems.org"
-group :jekyll_plugins do
-    # gem 'wdm' , '>= 0.1.0'
-    gem 'jekyll'
-    gem 'tzinfo'
-    gem 'tzinfo-data'
-    gem 'github-pages'
-    gem 'webrick'
-    gem 'jekyll-paginate-v2'
+gem 'github-pages', group: :jekyll_plugins do
+
+gem 'jekyll-paginate'
+
+gem 'jekyll-sitemap'
+
+gem 'jekyll', '~> 3.6'
 
 end
-# gem "github-pages", group: :jekyll_plugins

@@ -1,9 +1,57 @@
-# Akash Sharma's Blog
+# Soot Spirits Jekyll Theme
 
-This is a blog where I share my personal learnings from various domains and fields in terms of articles explaining the motivation, learning and working along with other aspects for others to read and enjoy while learning at the same time. 
+Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
 
-This blog is built on a customised light and responsive Jekyll theme. I deployed this Jekyll theme onto theGGithub Pages' remote theme which is kind of like a [gem-based theme](https://jekyllrb.com/docs/themes/#understanding-gem-based-themes). It forms a really good pipeline structure for writing the blog articles in the form of a markdown article and which gets generated on compiling and building the project.
+![mobile](tmp/mobile.png)
 
-## Usage
-U can simply visit https://akash-sharma-1.github.io/blog for viewing the blog and its content.
-I'll also try to make a revised Jekyll template in a separate repo available for cloning and getting started with a differnt blog for others to use it.
+The text is made beautiful with combination of [League Gothic](https://www.fontsquirrel.com/fonts/league-gothic), [Roboto](https://fonts.google.com/specimen/Roboto) and [Open Sans](https://fonts.google.com/specimen/Open+Sans). Now who doesn't love them.
+
+![text](tmp/langslide.gif)
+
+### Demo
+[sootspirits.github.io](https://sootspirits.github.io)
+
+### Some Good Features
+
+- Fully mobile ready
+- Beautiful typography
+- Two column layout suitable for a wide range of blogging habits
+- Fully customisable theme including the 'hello' text, quotes, nav items and sidebar widgets
+
+### Screenshots
+##### Deskop browser (full width)
+![fullwidth](tmp/fullwidth.png)
+
+##### Tablet browser (iPad)
+![tab](tmp/ipad.png)
+
+##### Mobile browser (320px and greater)
+![mobile](tmp/mobile.png)
+
+##### Hamburger menu toggle
+![hamburger](tmp/hamburger.gif)
+
+##### Basic navigation and footer
+![navi](tmp/navi.gif)
+
+### Theme Usage
+
+- [Get started](https://jekyllrb.com/docs/installation/) with having the necessary tools set up
+- Download the zip of this project or simple clone it
+- Delete the ```tmp/``` directory and any sample ```_posts```
+- Customize the variables in ```_config.yml``` file such that it reflects your information. Similarly, change the disqus username (or remove it altogether).
+- Replace footer links in the ```_layouts/default.html``` file with yours.
+- Replace the ```site:example.com``` in ```assets/js/custom.js``` with your site's address.
+
+### Credits
+- [Codepen hi-im-si](http://codepen.io/hi-im-si/pen/DHoup) for the header 'hello' typewriter text
+- [Bulma CSS](bulma.io/)
+- [Jekyll](https://jekyllrb.com)
+- [Github](https://github.com)
+
+### Licence
+MIT
+
+
+### What's up with the name?
+I was watching [My Neighbour Totoro](https://en.wikipedia.org/wiki/Susuwatari) while developing :-)

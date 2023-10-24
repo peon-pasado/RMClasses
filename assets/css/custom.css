@@ -94,7 +94,7 @@ h1.title > span {
 }
 
 html, body {
-    max-width: 150%;
+    max-width: 100%;
     overflow-x: hidden;
 }
 

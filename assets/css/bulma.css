@@ -5513,9 +5513,9 @@ label.panel-block:hover {
 }
 
 .tile.is-ancestor {
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
-  margin-top: -1.5rem;
+  margin-left: -1.2rem;
+  margin-right: -1.2rem;
+  margin-top: -1.2rem;
 }
 
 .tile.is-ancestor:last-child {

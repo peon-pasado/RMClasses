@@ -10,14 +10,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Soot Spirits
-tagline: Code, Science, Philosophy, Humor
+title : Rating Miserable Materials
+tagline: competitive-programming, math
 author :
-  name : Abhishek Nagekar
-  email : abhishek@nagekar.com
-  github : abhn
-  twitter : abhisheknagekar
-  feedburner : AbhishekN
+  name : Rating Miserable
+  email : mminih@uni.pe
+  github : peon-pasado
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt

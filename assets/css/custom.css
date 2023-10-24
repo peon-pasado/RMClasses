@@ -108,6 +108,7 @@ a {
 /* Hotfix for Bulma striping headings of styling */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
+  color: #4751c3
 }
 @media screen and (max-width: 768px) {
   .pagination {

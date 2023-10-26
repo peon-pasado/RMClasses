@@ -6,7 +6,7 @@ date: 2023-09-23
 
 ## Backtracking
 
-| name | tag | descripción |
+| name | tag | editorial |
 | ---  | :---: | :---: |
 | [棋盘问题](http://poj.org/problem?id=1321) | backtracking, bitmask | |
 | [Dungeon Master](http://poj.org/problem?id=2251) | backtracking, heavy-pruning | |

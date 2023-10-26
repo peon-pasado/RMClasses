@@ -5,15 +5,12 @@ date: 2023-09-23
 ---
 
 ## Backtracking
--------------------------
+
 | name | tag | descripción |
--------------------------
+| ---  | :---: | :---: |
 | [棋盘问题](http://poj.org/problem?id=1321) | backtracking, bitmask | |
--------------------------
 | [Dungeon Master](http://poj.org/problem?id=2251) | backtracking, heavy-pruning | |
--------------------------
-| [Facer is learning to swim](http://poj.org/problem?id=3827) | backtracking, dp | |
-------------------------- 
+| [Facer is learning to swim](http://poj.org/problem?id=3827) | backtracking, dp | | 
 | [Graph Game](http://poj.org/problem?id=3834) | backtracking, heavy-pruning, matroid union, observation | [csdn](https://blog.csdn.net/cqbzlydd/article/details/133021365), [cnblogs](https://www.cnblogs.com/tzcwk/p/13408622.html) | 
 
 					
